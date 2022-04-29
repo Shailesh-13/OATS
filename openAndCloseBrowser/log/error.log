@@ -1,0 +1,1182 @@
+!SESSION 2021-03-04 23:07:51.094 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.update.configurator 4 0 2021-03-04 23:08:55.116
+!MESSAGE Could not rename configuration temp file
+!SESSION 2021-03-04 23:08:38.332 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:10:15.511
+!MESSAGE Cannot log diagnostic suggestions to file C:\OracleATS\logs\odt\odt_suggestions.log
+!STACK 0
+java.io.FileNotFoundException: C:\OracleATS\logs\odt\odt_suggestions.log (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at oracle.oats.scripting.diagnosisTool.api.listeners.SuggestionsLogger.onStart(SuggestionsLogger.java:53)
+	at oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor.onStart(DiagnosisExecutor.java:199)
+	at oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor.diagnose(DiagnosisExecutor.java:84)
+	at oracle.oats.scripting.diagnosisTool.ui.ModulesPage$4.run(ModulesPage.java:254)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:10:18.973
+!MESSAGE Failure found when diagnosing Oracle EBS/Forms Functional Testing Forms FT Diagnoser
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:10:18.973
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:10:18.973
+!MESSAGE Suggestion for fixing: Rule file is invalid or missing. Please recreate it as followings: Navigate to OpenScript menu: View->OpenScript Preferences..->OpenScript->Record->Oracle EBS/Forms Functional->Object Identification(tab), click 'Apply', then click 'OK'
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:10:19.426
+!MESSAGE Failure found when diagnosing Oracle EBS/Forms Load Testing Forms LT Diagnoser
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:10:19.426
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:10:19.426
+!MESSAGE Suggestion for fixing: We have detected that your Internet Explorer XSS Security Settings are enabled. 
+Please follow the steps below to disable for all zones to record a FormsLT script.
+
+To Change setting:
+Go to Tools > Internet Options and Choose Security Tab 
+Select the Zone to modify and Press Custom level 
+Find Enable XSS filter Setting - Select Disable and click Ok
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.ieToolbar.util.IEBhoUtil 4 0 2021-03-04 23:10:23.378
+!MESSAGE IE Enable Browser Extension.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:10:23.378
+!MESSAGE Failure found when diagnosing Web Functional Testing IE Helper
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:10:24.253
+!MESSAGE Failure found when diagnosing Web Functional Testing IE Helper
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.firefox.util.FFExtUtil 4 0 2021-03-04 23:10:25.737
+!MESSAGE OpenScript WebDom Add-on is not compatible with the installed Firefox 60.0
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:10:25.737
+!MESSAGE Failure found when diagnosing Web Functional Testing Firefox Helper
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:10:25.737
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:10:25.737
+!MESSAGE Suggestion for fixing: The Firefox Version installed is not supported, please refer to the Release Notes for the current supported version.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:10:25.737
+!MESSAGE Failure found when diagnosing Web Functional Testing Firefox Helper
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:13:17.143
+!MESSAGE Failure found when diagnosing Oracle EBS/Forms Functional Testing Forms FT Diagnoser
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:13:17.158
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:13:17.158
+!MESSAGE Suggestion for fixing: Rule file is invalid or missing. Please recreate it as followings: Navigate to OpenScript menu: View->OpenScript Preferences..->OpenScript->Record->Oracle EBS/Forms Functional->Object Identification(tab), click 'Apply', then click 'OK'
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:13:17.486
+!MESSAGE Failure found when diagnosing Oracle EBS/Forms Load Testing Forms LT Diagnoser
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:13:17.486
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:13:17.502
+!MESSAGE Suggestion for fixing: We have detected that your Internet Explorer XSS Security Settings are enabled. 
+Please follow the steps below to disable for all zones to record a FormsLT script.
+
+To Change setting:
+Go to Tools > Internet Options and Choose Security Tab 
+Select the Zone to modify and Press Custom level 
+Find Enable XSS filter Setting - Select Disable and click Ok
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.ieToolbar.util.IEBhoUtil 4 0 2021-03-04 23:13:19.486
+!MESSAGE IE Enable Browser Extension.
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.firefox.util.FFExtUtil 4 0 2021-03-04 23:13:20.392
+!MESSAGE OpenScript WebDom Add-on is not compatible with the installed Firefox 60.0
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:13:20.392
+!MESSAGE Failure found when diagnosing Web Functional Testing Firefox Helper
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:13:20.392
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:13:20.392
+!MESSAGE Suggestion for fixing: The Firefox Version installed is not supported, please refer to the Release Notes for the current supported version.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:16:15.145
+!MESSAGE Failure found when diagnosing Oracle EBS/Forms Functional Testing Forms FT Diagnoser
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:16:15.145
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:16:15.145
+!MESSAGE Suggestion for fixing: Rule file is invalid or missing. Please recreate it as followings: Navigate to OpenScript menu: View->OpenScript Preferences..->OpenScript->Record->Oracle EBS/Forms Functional->Object Identification(tab), click 'Apply', then click 'OK'
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:16:15.520
+!MESSAGE Failure found when diagnosing Oracle EBS/Forms Load Testing Forms LT Diagnoser
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:16:15.520
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:16:15.520
+!MESSAGE Suggestion for fixing: We have detected that your Internet Explorer XSS Security Settings are enabled. 
+Please follow the steps below to disable for all zones to record a FormsLT script.
+
+To Change setting:
+Go to Tools > Internet Options and Choose Security Tab 
+Select the Zone to modify and Press Custom level 
+Find Enable XSS filter Setting - Select Disable and click Ok
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.ieToolbar.util.IEBhoUtil 4 0 2021-03-04 23:16:18.629
+!MESSAGE IE Enable Browser Extension.
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.firefox.util.FFExtUtil 4 0 2021-03-04 23:16:19.682
+!MESSAGE OpenScript WebDom Add-on is not compatible with the installed Firefox 60.0
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:16:19.682
+!MESSAGE Failure found when diagnosing Web Functional Testing Firefox Helper
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:16:19.682
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:16:19.682
+!MESSAGE Suggestion for fixing: The Firefox Version installed is not supported, please refer to the Release Notes for the current supported version.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:17:16.353
+!MESSAGE Failure found when diagnosing Oracle EBS/Forms Functional Testing Forms FT Diagnoser
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:17:16.353
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:17:16.353
+!MESSAGE Suggestion for fixing: Rule file is invalid or missing. Please recreate it as followings: Navigate to OpenScript menu: View->OpenScript Preferences..->OpenScript->Record->Oracle EBS/Forms Functional->Object Identification(tab), click 'Apply', then click 'OK'
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.ieToolbar.util.IEBhoUtil 4 0 2021-03-04 23:17:18.337
+!MESSAGE IE Enable Browser Extension.
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.firefox.util.FFExtUtil 4 0 2021-03-04 23:17:19.025
+!MESSAGE OpenScript WebDom Add-on is not compatible with the installed Firefox 60.0
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:17:19.025
+!MESSAGE Failure found when diagnosing Web Functional Testing Firefox Helper
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:17:19.040
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:17:19.040
+!MESSAGE Suggestion for fixing: The Firefox Version installed is not supported, please refer to the Release Notes for the current supported version.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:26:05.766
+!MESSAGE Failure found when diagnosing Oracle EBS/Forms Functional Testing Forms FT Diagnoser
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:26:05.766
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:26:05.766
+!MESSAGE Suggestion for fixing: Rule file is invalid or missing. Please recreate it as followings: Navigate to OpenScript menu: View->OpenScript Preferences..->OpenScript->Record->Oracle EBS/Forms Functional->Object Identification(tab), click 'Apply', then click 'OK'
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.ieToolbar.util.IEBhoUtil 4 0 2021-03-04 23:26:08.186
+!MESSAGE IE Enable Browser Extension.
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.firefox.util.FFExtUtil 4 0 2021-03-04 23:26:08.956
+!MESSAGE OpenScript WebDom Add-on is not compatible with the installed Firefox 72.0.2
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:26:08.956
+!MESSAGE Failure found when diagnosing Web Functional Testing Firefox Helper
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:26:08.956
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:26:08.956
+!MESSAGE Suggestion for fixing: The Firefox Version installed is not supported, please refer to the Release Notes for the current supported version.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:26:48.484
+!MESSAGE Failure found when diagnosing Oracle EBS/Forms Functional Testing Forms FT Diagnoser
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:26:48.484
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:26:48.484
+!MESSAGE Suggestion for fixing: Rule file is invalid or missing. Please recreate it as followings: Navigate to OpenScript menu: View->OpenScript Preferences..->OpenScript->Record->Oracle EBS/Forms Functional->Object Identification(tab), click 'Apply', then click 'OK'
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.ieToolbar.util.IEBhoUtil 4 0 2021-03-04 23:26:50.373
+!MESSAGE IE Enable Browser Extension.
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.firefox.util.FFExtUtil 4 0 2021-03-04 23:26:51.173
+!MESSAGE OpenScript WebDom Add-on is not compatible with the installed Firefox 72.0.2
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:26:51.173
+!MESSAGE Failure found when diagnosing Web Functional Testing Firefox Helper
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:26:51.173
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-04 23:26:51.173
+!MESSAGE Suggestion for fixing: The Firefox Version installed is not supported, please refer to the Release Notes for the current supported version.
+
+!ENTRY org.eclipse.osgi 2 1 2021-03-04 23:27:09.496
+!MESSAGE NLS unused message: JsonPostDataDialog_Error in: oracle.oats.scripting.modules.webservice.i18n.WebServiceModuleMessages
+!SESSION 2021-03-04 23:48:18.084 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.RecordingHandler 2 0 2021-03-04 23:57:59.794
+!MESSAGE Cannot get a connection from the browser helper after 15 seconds. 
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.RecordingHandler 2 0 2021-03-04 23:58:01.123
+!MESSAGE Cannot get a connection from the browser helper after 15 seconds. 
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.RecordingHandler 2 0 2021-03-04 23:58:44.629
+!MESSAGE Cannot get a connection from the browser helper after 15 seconds. 
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.RecordingHandler 2 0 2021-03-04 23:59:11.968
+!MESSAGE Cannot get a connection from the browser helper after 15 seconds. 
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.RecordingHandler 4 0 2021-03-04 23:59:28.607
+!MESSAGE Cannot get a connection from the browser helper after 15 seconds. 
+
+!ENTRY oracle.oats.scripting.recorders.RecordingSession 4 0 2021-03-04 23:59:28.611
+!MESSAGE Error starting recorder Web Functional Test Recorder. Will not start dependent recorders
+!STACK 0
+oracle.oats.scripting.modules.webdom.common.api.exception.BrowserHelperException: Cannot get a connection from the browser helper after 15 seconds. 
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.common.AbstractRecordingHandler.testConnection(AbstractRecordingHandler.java:187)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.common.AbstractRecordingHandler.sendInitilizeSettings(AbstractRecordingHandler.java:95)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.RecordingHandler.sendInitilizeSettings(RecordingHandler.java:241)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.common.AbstractRecordingHandler.startRecording(AbstractRecordingHandler.java:74)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.RecordingHandler.startRecording(RecordingHandler.java:106)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder.start(DOMRecorder.java:100)
+	at oracle.oats.scripting.recorders.RecordingSession.start(RecordingSession.java:166)
+	at oracle.oats.scripting.recorders.configurations.SessionLauncher.execute(SessionLauncher.java:206)
+	at oracle.oats.scripting.recorders.configurations.SessionLauncher.access$0(SessionLauncher.java:164)
+	at oracle.oats.scripting.recorders.configurations.SessionLauncher$LaunchRecordersJob.executeFirstJob(SessionLauncher.java:255)
+	at oracle.oats.scripting.common.util.ChainingWorkspaceJob.runInWorkspace(ChainingWorkspaceJob.java:32)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.oats.scripting.recorders.configurations.SessionLauncher 4 0 2021-03-04 23:59:28.613
+!MESSAGE error starting recorders
+!STACK 0
+java.lang.NullPointerException
+	at oracle.oats.scripting.recorders.RecordingSession.start(RecordingSession.java:178)
+	at oracle.oats.scripting.recorders.configurations.SessionLauncher.execute(SessionLauncher.java:206)
+	at oracle.oats.scripting.recorders.configurations.SessionLauncher.access$0(SessionLauncher.java:164)
+	at oracle.oats.scripting.recorders.configurations.SessionLauncher$LaunchRecordersJob.executeFirstJob(SessionLauncher.java:255)
+	at oracle.oats.scripting.common.util.ChainingWorkspaceJob.runInWorkspace(ChainingWorkspaceJob.java:32)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 0 2021-03-05 00:04:10.342
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.core.runtime.AssertionFailedException: null argument:)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+Caused by: org.eclipse.core.runtime.AssertionFailedException: null argument:
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:86)
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:74)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.add(AbstractTreeViewer.java:133)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.add(AbstractTreeViewer.java:664)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView$1AsyncAddTask.run(ResultsDisplayView.java:1107)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2021-03-05 00:04:10.344
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.core.runtime.AssertionFailedException: null argument:)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+Caused by: org.eclipse.core.runtime.AssertionFailedException: null argument:
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:86)
+	at org.eclipse.core.runtime.Assert.isNotNull(Assert.java:74)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.add(AbstractTreeViewer.java:133)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.add(AbstractTreeViewer.java:664)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView$1AsyncAddTask.run(ResultsDisplayView.java:1107)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2021-03-05 00:25:56.821
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalStateException: Error: element id cannot be a negative value)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+Caused by: java.lang.IllegalStateException: Error: element id cannot be a negative value
+	at oracle.oats.scripting.models.stores.database.ResultOverviewStore.isMemoryStoreRootElement(ResultOverviewStore.java:374)
+	at oracle.oats.scripting.models.stores.database.ResultOverviewStore.getStore(ResultOverviewStore.java:351)
+	at oracle.oats.scripting.models.stores.database.ResultOverviewStore.getStore(ResultOverviewStore.java:344)
+	at oracle.oats.scripting.models.stores.database.ResultOverviewStore.getAttributeNamesIterator(ResultOverviewStore.java:447)
+	at oracle.oats.scripting.models.ModelAccessor.getAttributeNames(ModelAccessor.java:232)
+	at oracle.oats.scripting.models.ModelElement.getAttributeNames(ModelElement.java:470)
+	at oracle.oats.scripting.ui.views.details.DetailsView$2.runInUIThread(DetailsView.java:146)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:94)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 23 more
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-05 09:43:18.659
+!MESSAGE Capturing thead stopped.
+
+!ENTRY org.eclipse.ui 4 0 2021-03-05 11:06:02.194
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.jface.viewers.AbstractTreeViewer.itemExists(AbstractTreeViewer.java:421)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createAddedElements(AbstractTreeViewer.java:337)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalAdd(AbstractTreeViewer.java:270)
+	at org.eclipse.jface.viewers.TreeViewer.internalAdd(TreeViewer.java:652)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.add(AbstractTreeViewer.java:144)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.add(AbstractTreeViewer.java:664)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView$1AsyncAddTask.run(ResultsDisplayView.java:1107)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 23 more
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-05 12:15:34.242
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-05 12:15:53.217
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.playback.ControllerAgent.2186917 4 0 2021-03-05 12:16:00.097
+!MESSAGE Failed to send event to agent. Event: StartScriptEvent(-http.useproxyserver "true" -http.usedeflate "false" -ft.smartmatch "true" -vmargs "" -http.usegzip "true" -use_global_errmap "true" -http.proxyusername "" -err.formslt.playback_error "Fail" -formsft.response_timeout "10" -browser.closeafterplayback "false" -browser.startupuri "" -web.record_movie "false" -delayupper "0" -delaypercentage "1" -runflag_do_user_tests "true" -err.basic.encryption_failed "Fail" -web.capture_entire_screen_on_fail "true" -err.functionaltest.table_test_error "Fail" -browser.mobileip "" -formsft.startup_timeout "30" -jet.only_use_id "false" -web.capture_entire_screen "false" -componentplaybackmode "true" -browser.extraargs "" -err.webdom.html_test_error "Fail" -formsft.action_timeout "30" -preservevariables "false" -err.http.html_parsing_error "Fail" -debuglogging "false" -err.utilities.validation_rowcount_error "Fail" -web.clear_cache_before "true" -dateformat "" -formsft.rule_file "" -err.http.invalid_http_response_code "Fail" -delaymin "0" -err.amflt.operation_invocation_error "Fail" -http.useproxyconfigurationscript "false" -web.accessibility_validate_after_wait_for_page "true" -err.functionaltest.object_test_error "Fail" -multipleplaybackwarningflag "false" -web.accessibility_enable "false" -http.downloadmanager.image "true" -jet.scroll_interval "250" -formsft.capture_screenshot "true" -err.http.dom_objet_not_created_exception "Fail" -web.auto_dismiss_alert "false" -iterations "1" -shareddata.actiontimeout "20" -use_recorded_value "false" -multipleplaybackwarningchoice "" -http.proxyscriptaddress "" -shareddata.obfuscatedpassword "password" -http.usedownloadmanager "false" -runflag_on_error_stop_iterations "false" -http.downloadmanager.css "true" -err.image.image_wait_appear_error "Fail" -http.downloadmanager.applet "true" -web.accessibility_axe_path "" -http.sockettimeout "120" -err.webdom.object_not_found_error "Fail" -web.launch_new_browser "true" -portnumberminimum "7777" -web.log_javascript_error "false" -http.preservecookies "false" -http.expireduration "60" -err.webfttest.xml_test_error "Fail" -err.webdom.wait_for_page_timeout_error "Fail" -err.formslt.component_not_found "Fail" -err.utilities.sql_error "Fail" -web.clear_persistent_cookies_before "false" -browser.type "Chrome" -http.downloadmanager.embededobject "true" -adf.enable_page_logger "false" -err.formslt.match_error "Fail" -clickdelay "30" -err.basic.function_exception "Fail" -err.webdom.webdom_solve_error "Fail" -image.default_timeout "10000" -http.preserveconnections "false" -portnumbermaximum "7888" -http.version "HTTP/1.1" -err.basic.segment_parser_error "Fail" -err.image.image_wait_disappear_error "Fail" -http.downloadlocalfiles "false" -err.basic.create_variable_error "Fail" -http.maxcachesize "16" -http.nonproxyhosts "" -http.cachedownloadpages "false" -err.formsft.forms_ft_error "Fail" -err.functionaltest.ft_match_error "Fail" -err.amflt.playback_error "Fail" -http.proxyport "" -err.utilities.xml_parsing_error "Fail" -err.basic.variable_not_found "Fail" -err.utilities.csv_loading_error "Fail" -shareddata.password "password" -err.formslt.io_error "Fail" -http.maxkeepaliverequests "-2" -http.clearcacheafteriteration "true" -err.formsft.statusbar_test_error "Fail" -http.globalheaders "" -web.clear_session_cookies "false" -http.autochecknewcache "true" -err.webdom.fail_to_playback "Fail" -shareddata.encryptedpassword "password" -http.proxypassword "" -browser.overridepath "" -adf.only_use_absolutelocator "false" -web.capture_screenshot "true" -web.clear_persistent_cookies "false" -web.browser_id "0" -web.accessibility_delaytime "1" -err.basic.binary_decoding_exception "Fail" -image.drag_speed "200" -err.basic.file_not_found "Fail" -web.capture_screenshot_interval "500" -err.http.response_time_error "Fail" -err.formslt.connect_error "Fail" -web.log_jsevent "false" -formslt.heartbeatinterval "0" -databank_preparation_timeout "30" -web.bring_edge_to_foreground "false" -err.hyperionload.response_error "Fail" -formsft.forms_log_level "OFF" -http.language "" -http.downloadmanager.script "true" -http.proxyhost "" -ft.matchformat "wildcard" -http.accept "text/html, image/gif, image/jpeg, */*" -err.basic.encryption_service_not_initialized "Fail" -image.delay_before_action "300" -shareddata.address "t3://localhost:8088" -web.force_to_use_fireevent "false" -formslt.enable_message_log "false" -delaylower "0" -delaymax "10" -web.capture_browser_only "true" -web.browser_log_level "NONE" -http.ignoredurls ".png,.ico,.gif,.jpg,.jpeg,.css,.js" -web.event_time_out "60" -formslt.capture_message_details "true" -err.image.image_verify_error "Fail" -browser.mobileport "" -http.maxcontentsize "-1" -maxheapsize "256" -http.ignoredurlregexps "" -err.http.solve_error "Fail" -shareddata.username "oats" -err.http.match_error "Fail" -err.basic.child_script_exception "Fail" -err.http.internet_invalid_url "Fail" -replaceurls "" -err.webdom.title_test_error "Fail" -http.useragentheader "" -http.usecookies "true" -web.capture_frame "true" -web.capture_entire_page "false" -browser.startuptimeout "30" -web.clear_cache "false" -http.everyvisitchecknewcache "false" -jet.enable_page_logger "false" -err.basic.general_script_exception "Fail" -web.capture_url "true" -web.accessibility_skip_frames "false" -err.webdom.response_time_error "Fail" -err.http.keystore_load_error "Fail" -web.clear_session_cookies_before "false" -http.maxconnections "2" -err.http.zero_length_download "Fail" -browser.hide "false" -browser.chromedevicemode "Desktop" -http.useproxy "false" -http.sslversion "TLS" -err.openui.sync_page_timeout "Fail" -http.usekeepalive "true" -web.capture_html "true" -web.date_format "" -err.http.node_not_found_exception "Fail" -encryption_properties_file "C:\Users\ASUS\osworkspace\.metadata\.plugins\oracle.oats.scripting.utilities\encryption.properties" -scriptclass "script" )
+!STACK 0
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:118)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877)
+	at java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786)
+	at java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286)
+	at java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351)
+	at oracle.oats.scripting.playback.ControllerAgent.sendEvent(ControllerAgent.java:101)
+	at oracle.oats.scripting.playback.ControllerAgent.run(ControllerAgent.java:159)
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-05 12:24:28.591
+!MESSAGE Failure found when diagnosing Oracle EBS/Forms Functional Testing Forms FT Diagnoser
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-05 12:24:28.592
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-05 12:24:28.592
+!MESSAGE Suggestion for fixing: Rule file is invalid or missing. Please recreate it as followings: Navigate to OpenScript menu: View->OpenScript Preferences..->OpenScript->Record->Oracle EBS/Forms Functional->Object Identification(tab), click 'Apply', then click 'OK'
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.ieToolbar.util.IEBhoUtil 4 0 2021-03-05 12:24:38.421
+!MESSAGE IE Enable Browser Extension.
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.firefox.util.FFExtUtil 4 0 2021-03-05 12:24:39.263
+!MESSAGE OpenScript WebDom Add-on is not compatible with the installed Firefox 86.0
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-05 12:24:39.266
+!MESSAGE Failure found when diagnosing Web Functional Testing Firefox Helper
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-05 12:24:39.267
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-05 12:24:39.268
+!MESSAGE Suggestion for fixing: The Firefox Version installed is not supported, please refer to the Release Notes for the current supported version.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-05 12:25:02.795
+!MESSAGE Capturing thead stopped.
+
+!ENTRY org.eclipse.ui.workbench 4 0 2021-03-05 12:25:03.659
+!MESSAGE Widget is disposed
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:578)
+	at oracle.oats.scripting.modules.functionalTest.ui.views.ObjectDetailsView.clearLastSearchingResult(ObjectDetailsView.java:1419)
+	at oracle.oats.scripting.modules.functionalTest.ui.views.ObjectDetailsView.onCaptureFinished(ObjectDetailsView.java:693)
+	at oracle.oats.scripting.modules.functionalTest.objectCapture.CaptureSrvc.onCaptureFinished(CaptureSrvc.java:92)
+	at oracle.oats.scripting.modules.functionalTest.objectCapture.internal.CaptureSrvcDelegate.onFinished(CaptureSrvcDelegate.java:536)
+	at oracle.oats.scripting.modules.functionalTest.objectCapture.internal.CaptureSrvcDelegate.stop(CaptureSrvcDelegate.java:297)
+	at oracle.oats.scripting.modules.functionalTest.objectCapture.internal.CaptureSrvcDelegate$TraceHandler.beforeDisposeEditor(CaptureSrvcDelegate.java:830)
+	at oracle.oats.scripting.ui.internal.editors.openScript.OpenScriptEditor.dispose(OpenScriptEditor.java:728)
+	at org.eclipse.ui.internal.WorkbenchPartReference.doDisposePart(WorkbenchPartReference.java:730)
+	at org.eclipse.ui.internal.EditorReference.doDisposePart(EditorReference.java:302)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:681)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1682)
+	at org.eclipse.ui.internal.WorkbenchPage.handleDeferredEvents(WorkbenchPage.java:1389)
+	at org.eclipse.ui.internal.WorkbenchPage.deferUpdates(WorkbenchPage.java:1373)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1347)
+	at org.eclipse.ui.internal.WorkbenchPage.closeAllEditors(WorkbenchPage.java:1166)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1731)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:849)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1585)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:722)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:698)
+	at org.eclipse.ui.internal.WorkbenchWindow$3.run(WorkbenchWindow.java:814)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:812)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$16.run(Workbench.java:912)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:909)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:838)
+	at org.eclipse.ui.internal.Workbench$23.run(Workbench.java:1082)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1080)
+	at org.eclipse.ui.internal.Workbench.restart(Workbench.java:2054)
+	at org.eclipse.ui.internal.handlers.RestartWorkbenchHandler.execute(RestartWorkbenchHandler.java:31)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:281)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:476)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(HandlerService.java:169)
+	at org.eclipse.ui.internal.handlers.SlaveHandlerService.executeCommand(SlaveHandlerService.java:247)
+	at org.eclipse.ui.menus.CommandContributionItem.handleWidgetSelection(CommandContributionItem.java:619)
+	at org.eclipse.ui.menus.CommandContributionItem.access$10(CommandContributionItem.java:605)
+	at org.eclipse.ui.menus.CommandContributionItem$4.handleEvent(CommandContributionItem.java:595)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+!SESSION 2021-03-05 12:25:15.922 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-05 12:30:17.662
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.models.stores.java.ASTIterator 4 0 2021-03-05 12:40:34.956
+!MESSAGE Error on astnode:
+/** 
+ * Add code to be executed each iteration for this virtual user.
+ */
+public void run() throws Exception {
+}
+
+
+!ENTRY oracle.oats.scripting.models.stores.java.ASTIterator 4 0 2021-03-05 12:40:35.018
+!MESSAGE Error on astnode:
+/** 
+ * Add code to be executed each iteration for this virtual user.
+ */
+public void run() throws Exception {
+}
+
+!SESSION 2021-03-08 09:49:47.727 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-03-08 09:50:14.137
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY oracle.oats.scripting.models.stores.java.ASTIterator 4 0 2021-03-08 10:04:31.190
+!MESSAGE Error on astnode:
+/** 
+ * Add code to be executed each iteration for this virtual user.
+ */
+public void run() throws Exception {
+}
+
+
+!ENTRY oracle.oats.scripting.models.stores.java.ASTIterator 4 0 2021-03-08 10:57:28.585
+!MESSAGE Error on astnode:
+/** 
+ * Add code to be executed each iteration for this virtual user.
+ */
+public void run() throws Exception {
+}
+
+
+!ENTRY oracle.oats.scripting.models.stores.java.ASTIterator 4 0 2021-03-08 10:57:29.068
+!MESSAGE Error on astnode:
+/** 
+ * Add code to be executed each iteration for this virtual user.
+ */
+public void run() throws Exception {
+}
+
+
+!ENTRY oracle.oats.scripting.models.stores.java.ASTIterator 4 0 2021-03-08 10:58:12.525
+!MESSAGE Error on astnode:
+/** 
+ * Add code to be executed each iteration for this virtual user.
+ */
+public void run() throws Exception {
+}
+
+
+!ENTRY oracle.oats.scripting.models.stores.java.ASTIterator 4 0 2021-03-08 10:58:13.051
+!MESSAGE Error on astnode:
+/** 
+ * Add code to be executed each iteration for this virtual user.
+ */
+public void run() throws Exception {
+}
+
+
+!ENTRY oracle.oats.scripting.models.stores.java.JavaStore 2 0 2021-03-08 10:58:43.030
+!MESSAGE Source code was updated while it was being parsed. Reparsing now.
+
+!ENTRY org.eclipse.jdt.launching 4 0 2021-03-08 11:02:20.739
+!MESSAGE Port Conflict: Port 7,777 is in use. Change the port in General Playback Preferences to an unused port.
+!STACK 0
+oracle.oats.scripting.playback.exceptions.OpenScriptControllerException: java.net.BindException: Address already in use: JVM_Bind
+	at oracle.oats.scripting.playback.OpenScriptController.startController(OpenScriptController.java:112)
+	at oracle.oats.scripting.playback.OpenScriptController.startSession(OpenScriptController.java:63)
+	at oracle.oats.scripting.playback.launchers.ScriptingLauncher.launch(ScriptingLauncher.java:377)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:764)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:614)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:880)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1083)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at oracle.oats.scripting.modules.basic.common.api.net.PortManagementUtilities.openLocalOnlyServerSocket(PortManagementUtilities.java:231)
+	at oracle.oats.scripting.playback.OpenScriptController.startController(OpenScriptController.java:109)
+	... 7 more
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-08 11:02:37.479
+!MESSAGE Failure found when diagnosing Oracle EBS/Forms Functional Testing Forms FT Diagnoser
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-08 11:02:37.479
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-08 11:02:37.480
+!MESSAGE Suggestion for fixing: Rule file is invalid or missing. Please recreate it as followings: Navigate to OpenScript menu: View->OpenScript Preferences..->OpenScript->Record->Oracle EBS/Forms Functional->Object Identification(tab), click 'Apply', then click 'OK'
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-08 11:02:37.814
+!MESSAGE Failure found when diagnosing Oracle EBS/Forms Load Testing Forms LT Diagnoser
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-08 11:02:37.816
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-08 11:02:37.817
+!MESSAGE Suggestion for fixing: We have detected that your Internet Explorer XSS Security Settings are enabled. 
+Please follow the steps below to disable for all zones to record a FormsLT script.
+
+To Change setting:
+Go to Tools > Internet Options and Choose Security Tab 
+Select the Zone to modify and Press Custom level 
+Find Enable XSS filter Setting - Select Disable and click Ok
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.ieToolbar.util.IEBhoUtil 4 0 2021-03-08 11:02:50.238
+!MESSAGE Run Oracle IE Toolbar error:System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.
+   at Microsoft.Win32.RegistryKey.Win32Error(Int32 errorCode, String str)
+   at Microsoft.Win32.RegistryKey.SetValue(String name, Object value, RegistryValueKind valueKind)
+   at Microsoft.Win32.RegistryKey.SetValue(String name, Object value)
+   at System.Runtime.InteropServices.RegistrationServices.RegisterManagedType(Type type, String strAsmName, String strAsmVersion, String strAsmCodeBase, String strRuntimeVersion)
+   at System.Runtime.InteropServices.RegistrationServices.RegisterAssembly(Assembly assembly, AssemblyRegistrationFlags flags)
+   at Oracle.OATS.OpenScript.IEToolBar.BrowserHelperObject.MainBHO.Main(String[] args)
+
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.ieToolbar.util.IEBhoUtil 4 0 2021-03-08 11:02:50.915
+!MESSAGE IE Enable Browser Extension.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-08 11:02:50.916
+!MESSAGE Failure found when diagnosing Web Functional Testing IE Helper
+
+!ENTRY oracle.oats.scripting.modules.webdom.diagnosors.firefox.util.FFExtUtil 4 0 2021-03-08 11:02:52.116
+!MESSAGE OpenScript WebDom Add-on is not compatible with the installed Firefox 86.0
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-08 11:02:52.119
+!MESSAGE Failure found when diagnosing Web Functional Testing Firefox Helper
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-08 11:02:52.120
+!MESSAGE Did not auto-fix the problem.
+
+!ENTRY oracle.oats.scripting.diagnosisTool.api.DiagnosisExecutor 4 0 2021-03-08 11:02:52.120
+!MESSAGE Suggestion for fixing: The Firefox Version installed is not supported, please refer to the Release Notes for the current supported version.
+
+!ENTRY oracle.oats.scripting.playback.ControllerAgent.21898192 2 0 2021-03-08 11:18:02.924
+!MESSAGE Connection problem reading agent results
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2598)
+	at java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:2905)
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2915)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+	at oracle.oats.scripting.playback.ControllerAgent$EventMessageInputStreamReader.run(ControllerAgent.java:284)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY oracle.oats.scripting.playback.ControllerAgent.13031286 2 0 2021-03-08 11:22:33.598
+!MESSAGE Connection problem reading agent results
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2598)
+	at java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:2905)
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2915)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+	at oracle.oats.scripting.playback.ControllerAgent$EventMessageInputStreamReader.run(ControllerAgent.java:284)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.ui 4 0 2021-03-08 11:23:39.712
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:901)
+	at java.util.ArrayList$Itr.next(ArrayList.java:851)
+	at java.util.Collections$UnmodifiableCollection$1.next(Collections.java:1042)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView.deleteAll(ResultsDisplayView.java:792)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView.access$15(ResultsDisplayView.java:777)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView$5.run(ResultsDisplayView.java:504)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:583)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:500)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3823)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3422)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+
+!ENTRY oracle.oats.scripting.playback.ControllerAgent.18732994 2 0 2021-03-08 11:24:11.748
+!MESSAGE Connection problem reading agent results
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2598)
+	at java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:2905)
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2915)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+	at oracle.oats.scripting.playback.ControllerAgent$EventMessageInputStreamReader.run(ControllerAgent.java:284)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.ui 4 0 2021-03-08 11:28:29.140
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:336)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:768)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView.setSelection(ResultsDisplayView.java:634)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView.access$27(ResultsDisplayView.java:631)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView$17.run(ResultsDisplayView.java:1027)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2021-03-08 11:28:29.746
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:336)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:768)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView.setSelection(ResultsDisplayView.java:634)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView.access$27(ResultsDisplayView.java:631)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView$17.run(ResultsDisplayView.java:1027)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 23 more
+
+!ENTRY oracle.oats.scripting.models.stores.java.ASTIterator 4 0 2021-03-08 11:47:07.182
+!MESSAGE Error on astnode:
+/** 
+ * Add code to be executed each iteration for this virtual user.
+ */
+public void run() throws Exception {
+}
+
+
+!ENTRY oracle.oats.scripting.models.stores.java.ASTIterator 4 0 2021-03-08 11:47:07.198
+!MESSAGE Error on astnode:
+/** 
+ * Add code to be executed each iteration for this virtual user.
+ */
+public void run() throws Exception {
+}
+
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 11:56:09.887
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 12:06:27.892
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 12:08:01.628
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 12:11:49.254
+!MESSAGE Parse message error.
+!STACK 0
+java.lang.NumberFormatException: For input string: "334.1999816894531"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler.processXMLData(CapturingHandler.java:463)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler.access$0(CapturingHandler.java:361)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler$CaptureThread.consumeIt(CapturingHandler.java:293)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler$CaptureThread.run(CapturingHandler.java:343)
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 12:12:52.517
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 12:15:03.091
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 12:21:08.396
+!MESSAGE Capturing thead stopped.
+
+!ENTRY org.eclipse.ui 4 0 2021-03-08 13:48:21.042
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3425)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:336)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:768)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView.setSelection(ResultsDisplayView.java:634)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView.access$27(ResultsDisplayView.java:631)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView$17.run(ResultsDisplayView.java:1027)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2021-03-08 13:48:22.795
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.msgFilterProc(Display.java:3166)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2366)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:477)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3877)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1576)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1937)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2366)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:477)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3877)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:337)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1576)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1937)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4528)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2371)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3420)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2382)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2346)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2198)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:493)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:488)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1212)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:463)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:336)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:768)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView.setSelection(ResultsDisplayView.java:634)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView.access$27(ResultsDisplayView.java:631)
+	at oracle.oats.scripting.ui.views.results.ResultsDisplayView$17.run(ResultsDisplayView.java:1027)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	... 42 more
+
+!ENTRY oracle.oats.scripting.playback.ControllerAgent.16683803 2 0 2021-03-08 13:55:12.045
+!MESSAGE Connection problem reading agent results
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:224)
+	at java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2598)
+	at java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:2905)
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2915)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1502)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:422)
+	at oracle.oats.scripting.playback.ControllerAgent$EventMessageInputStreamReader.run(ControllerAgent.java:284)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 14:19:04.158
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 14:28:13.434
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 14:29:15.793
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 14:29:44.103
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 14:30:04.870
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 14:32:59.485
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 15:35:56.156
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.models.stores.java.ASTIterator 4 0 2021-03-08 15:54:36.201
+!MESSAGE Error on astnode:
+/** 
+ * Add code to be executed each iteration for this virtual user.
+ */
+public void run() throws Exception {
+}
+
+
+!ENTRY oracle.oats.scripting.models.stores.java.ASTIterator 4 0 2021-03-08 15:54:36.228
+!MESSAGE Error on astnode:
+/** 
+ * Add code to be executed each iteration for this virtual user.
+ */
+public void run() throws Exception {
+}
+
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 16:01:54.492
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 16:15:18.305
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 16:26:16.465
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 16:27:00.243
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 16:27:58.137
+!MESSAGE Parse message error.
+!STACK 0
+java.lang.NumberFormatException: For input string: "54.199981689453125"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler.processXMLData(CapturingHandler.java:463)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler.access$0(CapturingHandler.java:361)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler$CaptureThread.consumeIt(CapturingHandler.java:293)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler$CaptureThread.run(CapturingHandler.java:343)
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 16:27:58.220
+!MESSAGE Parse message error.
+!STACK 0
+java.lang.NumberFormatException: For input string: "54.199981689453125"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler.processXMLData(CapturingHandler.java:463)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler.access$0(CapturingHandler.java:361)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler$CaptureThread.consumeIt(CapturingHandler.java:293)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler$CaptureThread.run(CapturingHandler.java:343)
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 16:27:58.660
+!MESSAGE Parse message error.
+!STACK 0
+java.lang.NumberFormatException: For input string: "54.199981689453125"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler.processXMLData(CapturingHandler.java:463)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler.access$0(CapturingHandler.java:361)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler$CaptureThread.consumeIt(CapturingHandler.java:293)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler$CaptureThread.run(CapturingHandler.java:343)
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 16:28:03.750
+!MESSAGE Parse message error.
+!STACK 0
+java.lang.NumberFormatException: For input string: "54.199981689453125"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler.processXMLData(CapturingHandler.java:463)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler.access$0(CapturingHandler.java:361)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler$CaptureThread.consumeIt(CapturingHandler.java:293)
+	at oracle.oats.scripting.modules.webdom.DOMRecorder.CapturingHandler$CaptureThread.run(CapturingHandler.java:343)
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 16:30:04.736
+!MESSAGE Capturing thead stopped.
+
+!ENTRY oracle.oats.scripting.modules.webdom.DOMRecorder.DOMRecorder 2 0 2021-03-08 16:49:27.051
+!MESSAGE Capturing thead stopped.
